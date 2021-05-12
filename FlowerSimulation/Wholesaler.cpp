@@ -1,12 +1,13 @@
 #include "Wholesaler.h"
 
-Wholesaler::Wholesaler(std::string) : Person(name)
+Wholesaler::Wholesaler(std::string,Grower* grower) : Person(name)
 {
+	this->grower = grower;
 }
 
 std::string Wholesaler::getName()
 {
-	return std::string();
+	return "Wholesaler " + Person::getName() ;
 }
 
 Grower* Wholesaler::getGrower()

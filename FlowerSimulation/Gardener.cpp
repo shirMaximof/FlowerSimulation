@@ -12,5 +12,5 @@ Gardener::Gardener(std::string): Person(name)
 
 std::string Gardener::getName()
 {
-    return std::string();
+    return "Gardener" + Person::getName();
 }

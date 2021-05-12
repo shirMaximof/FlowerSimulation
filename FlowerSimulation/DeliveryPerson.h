@@ -8,6 +8,7 @@ class DeliveryPerson :public Person
 
 private:
 	
+	
 public:
 	std::string getName();
 	DeliveryPerson(std::string);
