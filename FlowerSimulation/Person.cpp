@@ -21,10 +21,10 @@ void Person::acceptFlowers(FlowersBouquet* bouquet)
 {
 	//Robin accepts the flowers: Roses, Violets, Gladiolus
 	std::string s="";
-	for (auto& elem : bouquet->getbouquet())
+	for (auto& element : bouquet->getbouquet())
 	{
-		s = s << elem << ", ";
+		s = s + element + ", ";
 	}
-	s = s.substr(0,s.size());
-	std::cout << getName() << "accepts the flowers: " << s;
+	s = s.substr(0,s.size()-2)+ ".";
+	std::cout << getName() << " accepts the flowers: " << s <<std::endl;
 }
