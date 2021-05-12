@@ -25,5 +25,6 @@ void Person::acceptFlowers(FlowersBouquet* bouquet)
 	{
 		s = s << elem << ", ";
 	}
+	s = s.substr(0,s.size());
 	std::cout << getName() << "accepts the flowers: " << s;
 }
