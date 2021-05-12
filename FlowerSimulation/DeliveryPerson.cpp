@@ -1,8 +1,9 @@
 #include "DeliveryPerson.h"
 
+
 std::string DeliveryPerson::getName()
-{
-	return std::string();
+{ 
+	return "Delivery Person" + Person::getName();
 }
 
 DeliveryPerson::DeliveryPerson(std::string name) : Person(name)
@@ -12,6 +13,7 @@ DeliveryPerson::DeliveryPerson(std::string name) : Person(name)
 
 void DeliveryPerson::deliver(Person* p, FlowersBouquet* bouquet)
 {
+	std::cout << getName() << "delivers flowers" << p->getName();
 	p->acceptFlowers(bouquet);
 
 }
