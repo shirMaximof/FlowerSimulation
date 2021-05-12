@@ -1,5 +1,17 @@
 #pragma once
-class Wholesaler
+#include "Person.h";
+#include "Grower.h";
+class Wholesaler : Person
 {
+private:
+	Grower* grower;
+public:
+	Wholesaler(std::string);
+	std::string getName();
+	Grower* getGrower();
+	FlowersBouquet* acceptOrder(std::vector < std::string >);
+
+
+
 };
 
