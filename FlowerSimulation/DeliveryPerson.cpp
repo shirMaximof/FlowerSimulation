@@ -3,7 +3,7 @@
 
 std::string DeliveryPerson::getName()
 { 
-	return "Delivery Person" + Person::getName();
+	return "Delivery Person " + Person::getName();
 }
 
 DeliveryPerson::DeliveryPerson(std::string name) : Person(name)

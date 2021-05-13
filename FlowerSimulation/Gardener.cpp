@@ -9,8 +9,9 @@ FlowersBouquet* Gardener::prepareBouquet(std::vector<std::string> flowers)
     
 }
 
-Gardener::Gardener(std::string): Person(name)
+Gardener::Gardener(std::string name) : Person(name)
 {
+
 }
 
 std::string Gardener::getName()

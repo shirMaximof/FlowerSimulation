@@ -8,10 +8,10 @@
 #include "Wholesaler.h"
 int main()
 {
-    Gardener* garett = new Gardener("Garret");
+    DeliveryPerson* dylan = new DeliveryPerson("Dylan");
+    Gardener* garett = new Gardener("Garett");
     Grower* gray = new Grower("Gray", garett);
     Wholesaler* watson = new Wholesaler("Watson", gray);
-    DeliveryPerson* dylan = new DeliveryPerson("Dylan");
     FlowerArranger* flora = new FlowerArranger("Flora");
     Florist* fred = new Florist("Fred", watson, flora, dylan);
     Person* chris = new Person("Chris");

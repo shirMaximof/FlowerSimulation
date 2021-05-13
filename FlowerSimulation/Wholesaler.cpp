@@ -1,7 +1,7 @@
 #include "Wholesaler.h"
 #include "Grower.h"
 
-Wholesaler::Wholesaler(std::string,Grower* grower) : Person(name)
+Wholesaler::Wholesaler(std::string name,Grower* grower) : Person(name)
 {
 	this->grower = grower;
 }

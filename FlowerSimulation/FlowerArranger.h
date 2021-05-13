@@ -1,5 +1,6 @@
 #pragma once
 #include "Person.h"
+#include "FlowersBouquet.h"
 class FlowerArranger:Person
 {
 public:

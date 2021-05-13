@@ -7,7 +7,7 @@ FlowerArranger::FlowerArranger(std::string name) : Person(name)
 
 std::string FlowerArranger::getName()
 {
-	return "FlowerArranger " + Person::getName();
+	return "Flower Arranger " + Person::getName();
 }
 
 void FlowerArranger::arrangeFlowers(FlowersBouquet* flowers)
