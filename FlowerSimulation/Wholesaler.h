@@ -1,6 +1,6 @@
 #pragma once
-#include "Person.h";
-#include "Grower.h";
+#include "Person.h"
+#include "Grower.h"
 class Wholesaler : Person
 {
 private:

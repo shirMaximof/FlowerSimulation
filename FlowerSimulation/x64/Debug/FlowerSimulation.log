@@ -1,0 +1,3 @@
+﻿  FlowerArranger.cpp
+C:\Users\97252\Desktop\monhe3\FlowerSimulation\FlowerSimulation\FlowerArranger.cpp(16,9): error C2027: use of undefined type 'FlowersBouquet'
+C:\Users\97252\Desktop\monhe3\FlowerSimulation\FlowerSimulation\Person.h(5): message : see declaration of 'FlowersBouquet'

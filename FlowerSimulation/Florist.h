@@ -11,7 +11,7 @@ private:
     DeliveryPerson* deliveryPerson;
 
 public:
-    Florist(std::string name, Wholesaler* wholesaler, FlowerArranger* flowerArranger, DeliveryPerson* deliveryPerson) : Person(name);
+    Florist(std::string, Wholesaler*, FlowerArranger*, DeliveryPerson*);
     void acceptOrder(Person*, std::vector<std::string>);
     std::string getName();
 };

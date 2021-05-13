@@ -8,7 +8,7 @@ private:
 	
 public:
 	Grower(std::string name, Gardener*);
-	FlowersBouquet prepareOrder(std::vector<std::string>);
+	FlowersBouquet* prepareOrder(std::vector<std::string>);
 	std::string getName();
 
 };

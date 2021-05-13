@@ -1,6 +1,8 @@
 #include "Gardener.h"
+#include "FlowersBouquet.h"
+#include "Person.h"
 
-FlowersBouquet* Gardener::prepareBouquet(std::vector<std::string> flowers):
+FlowersBouquet* Gardener::prepareBouquet(std::vector<std::string> flowers)
 {
     std::cout << getName() << " prepares flowers." << std::endl;
     return new FlowersBouquet(flowers);
